@@ -1,0 +1,19 @@
+﻿Fazer um site que eu cadastro filmes que eu já vi por meio de uma api do imdb, trocar customers por actors que eu queira cadastar no site
+e ligar esses atores a filmes, dar notas para filmes, criar uma lista de filmes para ver e atualizar automaticamente quando eles vão ser 
+lançados e qdo vão ser liberados em digital (digital release date)
+
+-update em customer erro "The field Date of Birth must be a date."
+
+-for a large dataset it would be better to do pagination through the server. Datatable gets all the rows and implements pagination client-side, 
+so if custumers had too many rows the page would be umbearably slow. Enable server-side processing on datatables.
+
+-passar os códigos javascript por tipo de tarefa em arquivos .js
+
+-passar de bootstrap 3 para 4
+
+-zencoding
+
+-encrypting
+aspnet_regiis -pef "appSettings" "c:\deploy" -prov "DataProtectionConfigurationProvider"
+-decrypting
+aspnet_regiis -pdf "appSettings" "c:\deploy"
